@@ -1,0 +1,98 @@
+main {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    background-color: rgb(122, 28, 154);
+}
+
+section {
+    display: flex;
+}
+
+header {
+    display: inline-flex;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background-color: rgb(34, 40, 64);
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: larger;
+    font-style: normal;
+    color: rgb(109, 109, 239);
+}
+
+h2 {
+    font-family: Tahoma;
+    font-size: larger;
+    font-style: normal;
+    color: rgb(170, 20, 220);
+}
+
+h3 {
+    font-family: Geneva;
+    font-size: larger;
+    font-style: normal;
+    color: rgb(235, 173, 17);
+}
+
+a {
+    align-items: center;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: rgb(18, 2, 43);
+}
+
+img {
+    width: 300px;
+    border-color: rgb(8, 76, 136);
+    border-style: groove;
+    border-image: round;
+    padding: 7px;
+}
+
+footer {
+    background-color: rgb(255, 176, 6);
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+    border-color: rgb(76, 43, 0);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+div {
+    border-color: blue;
+    border-radius: 5px;
+    border-style: ridge;
+    display: inline-block;
+    /*background-color: lightgrey;*/
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+table,
+th,
+td {
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: double;
+    padding: 20px;
+    text-align: center;
+}

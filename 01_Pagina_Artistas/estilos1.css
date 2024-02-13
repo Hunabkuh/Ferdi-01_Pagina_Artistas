@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(39, 118, 188);
+    border-style: double ;
+    border-color: black;
+    border-width: 5px;
+    display: flex;
+    padding: auto;
+}
+header{
+    display: flex;
+    padding-right: 10px;
+}
